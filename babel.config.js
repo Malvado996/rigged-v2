@@ -4,7 +4,7 @@ module.exports = function (api) {
     return {
         presets: ["next/babel"],
         plugins: [
-            ["react-compiler", {}],  // ← Enables compiler everywhere
+            // ["react-compiler", {}],  // ← Enables compiler everywhere
         ],
     };
 };
